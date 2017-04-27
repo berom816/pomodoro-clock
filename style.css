@@ -1,0 +1,113 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:#414141;
+  color:white;
+}
+
+#titleN{
+  font-family:'Montserrat', sans-serif;
+  text-align:center;
+  margin-top:5%;
+}
+
+#setTimeSection{
+  display:block;
+  text-align:center;
+  margin-top:8%;
+}
+
+#setBreak{
+  display:inline-block;
+}
+
+.timeTitle{
+  font-family:'Montserrat', sans-serif;
+}
+
+button{
+  outline:none;
+}
+
+.holdControl{
+  width: 25px;
+	height: 25px;
+  display:inline-block;
+  color:#32cd32;
+	background-color: #414141;
+  border:none;
+  text-align:center;  
+  font-size:21px;
+  position:relative;
+  bottom:5px;
+  cursor:pointer;
+}
+
+.setTime{
+  height:50px;
+  width:58px;
+  font-size:30px;
+  background-color:#414141;
+  color:#32cd32;
+  display:inline-block;
+  text-align:center;
+  outline:none;
+  position:relative;
+  right:2px;
+  border:none;
+  cursor:default;
+}
+
+#setSession{
+  display:inline-block;
+}
+
+#resetButton{
+  background-color:white;
+  color:black;
+  font-size:15px;
+  font-family:'Montserrat', sans-serif;
+  margin-left:10%;
+  margin-right:10%;
+  width:80px;
+  height:40px;
+  border:1px solid white;
+  background-color:#414141;
+  color:white;
+  cursor:pointer;
+}
+
+#resetButton:active{
+  background-color:LightBlue;
+  color:black;
+}
+
+#showTime{
+  position:relative;
+  height:128px;
+  width:269px;
+  margin:auto;
+  cursor:pointer;
+  text-align:right;
+  right:26px;
+  font-size:6em;
+  font-family:sans-serif;
+  margin-top:8%;
+}
+
+#mins{
+  display:inline-block;
+  position:relative;
+}
+
+#colon{
+  display:inline-block;
+  position:relative;
+}
+
+#secs{
+  display:inline-block;
+  width:94px;
+  position:relative;
+  text-align:left;
+}
